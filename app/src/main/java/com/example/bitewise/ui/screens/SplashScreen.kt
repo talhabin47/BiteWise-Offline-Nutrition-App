@@ -69,7 +69,7 @@ fun SplashScreen(navController: NavController) {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Image(
-            painter = painterResource(id = R.drawable.app_logo),
+            painter = painterResource(id = R.drawable.splash_logo),
             contentDescription = "BiteWise Logo",
             modifier = Modifier
                 .size(200.dp)
